@@ -7,6 +7,7 @@
   <style type="text/css">
     
     body {
+      background: azure;
       background: linear-gradient(azure, blue);
     }
 
@@ -60,6 +61,7 @@
     <h2>Community Submitted Photos</h2>
 
     <div class="photo-container">
+      
       <div class="photo-frame">
         <img srcset="yeah.jpg 1280w, yeah-800w.jpg 800w, yeah-400w.jpg 400w"
               sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 1200px"
@@ -68,11 +70,17 @@
       </div>
 
       <div class="photo-frame">
-        <img src="dragon.jpg" alt="a fire-breathing cat">
+        <img srcset="dragon.jpg 1920w, dragon800.jpg 800w, dragon400.jpg 400" 
+             sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 1200px"
+             src="dragon800.jpg"
+             alt="a fire-breathing cat">
       </div>
 
       <div class="photo-frame">
-        <img src="grr.jpg" alt="a cat making a weird face">
+        <img srcset="grr.jpg 1200w, grr800.jpg 800w, grr400.jpg 400w"
+             sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 1200px"
+             src="grr800.jpg"
+             alt="a cat making a weird face">
       </div>
     </div>
   </section>
